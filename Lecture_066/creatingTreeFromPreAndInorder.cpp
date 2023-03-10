@@ -1,3 +1,4 @@
+
 class Solution{
     //instead of finding position we can also use mapping to get better time complexity
     int findPosition(int in[],int x,int n){
