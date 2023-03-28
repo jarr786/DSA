@@ -31,7 +31,8 @@ class Solution{
         solve(root->left,k,cnt,v);
         solve(root->right,k,cnt,v);
         
-        //check for the k sum
+        //check for the k sum while returning 
+        // from right every time
         int sum=0;
         for(int i=v.size()-1;i>=0;i--){
             sum+=v[i];
