@@ -1,4 +1,5 @@
-// Qsn-Minimum sum to create a given array
+// Qsn-Minimum number of coins required to 
+//make a target sum
 
 //simple recursive solution
 #include <bits/stdc++.h> 
