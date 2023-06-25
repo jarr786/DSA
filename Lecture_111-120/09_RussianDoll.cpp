@@ -32,7 +32,7 @@ public:
         // sorting by width
         // if two row has same width then sorting or putting greater height first
         sort(envelopes.begin(),envelopes.end(),comparator);
-        for(auto i:envelopes) cout<<i[0]<<"---"<<i[1]<<endl;
+      //  for(auto i:envelopes) cout<<i[0]<<"---"<<i[1]<<endl;
         // applying longest increasing subsequence on the height colums 
         vector<int>ans;
         ans.push_back(envelopes[0][1]);
